@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 session_id_for_test = 42
 
-
+# Add a dummy comment
 class TestSession(object):
     def setup_method(self, method):
         self.patched_library_patcher = patch('nidigital._library.Library', autospec=True)
